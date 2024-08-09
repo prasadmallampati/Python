@@ -1,7 +1,7 @@
 """
 Day 1: Python Basics
-●	Learning (20 min): Variables, data types, and basic operations.
-●	Practice (40 min):
+●	Learning : Variables, data types, and basic operations.
+●	Practice :
 ○	Create variables for different data types (int, float, string).
 ○	Write a program to swap two numbers.
 """
