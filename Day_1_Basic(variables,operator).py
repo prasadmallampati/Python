@@ -106,6 +106,16 @@ print("after swaping")
 print("A=",a,"B=",b)
 
 
+# 6  Diffrence b/w == and is
+
+x=10
+y=10
+print(x==y)
+
+
+
+print(x is y)
+
 
 
 
