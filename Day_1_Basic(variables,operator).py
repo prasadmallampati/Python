@@ -106,17 +106,20 @@ print("after swaping")
 print("A=",a,"B=",b)
 
 
-# 6  Diffrence b/w == and is
+#6  Diffrence b/w == and is
 
+# == example
 x=10
 y=10
-print(x==y)
+print(x==y) # here same returns True
 
 
+# is example 
+# if both variable holds same values return true memory location also same 
 
+print(id(x)) # know about where x is allocated 
+print(id(y)) # know about where y is allocated
 print(x is y)
-
-
 
 
 
