@@ -14,11 +14,12 @@ else:
 
 '''
 # if example
+age=int(input())
 
-if age>18:
+if age>18: 
     print('Your eligible for voting or marriage and other activities')
 else:
-    print(f'wait for {18-age} year for casting vote or marriage or other activitess')
+    print(f'wait for {18-age} year for casting vote or marriage or other activitess') 
 
 
 #loop in python they are two for and while
@@ -74,6 +75,7 @@ Write a program to find the largest of three numbers.
 Create a loop to print the first 10 Fibonacci numbers
 
 '''
+# largest of three numbers 
 
 a=eval(input())
 b=eval(input())
@@ -86,4 +88,17 @@ elif b>=a and b>=c:
 else:
     largest_value=c
 print(largest_value)
+
+
+# fibonacci numbers
+
+a,b=0,1
+print("first 10 fibonacci numbers")
+
+for i in range(10):
+    print(a)
+    # a values is b, b is a+b 
+    
+    a,b=b,a+b
+
 
