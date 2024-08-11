@@ -1,6 +1,6 @@
 
 '''
-Day 2: Control Structures
+                                            Day 2: Control Structures
 Learning : If-else statements, loops (for, while).
 
 '''
@@ -101,4 +101,89 @@ for i in range(10):
     
     a,b=b,a+b
 
+'''
+            Interview 
+3.	Can you explain what the pass statement does?
+4.	What is the difference between a list and a tuple?
+'''
 
+'''
+
+pass is used for place holder
+pass is used for condition not met perpose
+
+
+
+'''
+
+# examples for pass
+
+class Person:
+    
+    pass
+
+
+
+
+def myfun():
+    
+    pass
+
+
+for i in range(10):
+    
+    pass
+
+
+
+if age>18:
+    pass
+
+
+
+
+# 4 list and tuple
+
+
+l=[1,2,3,4,5]
+
+
+print(l)
+
+
+# used for adding value into list
+
+l.append(6)
+
+print(l)
+
+# also used for delete element in list
+l.remove(4)
+
+print(l)
+
+
+# used for pop the element means delete from list
+l.pop(0)
+
+
+print(l)
+
+
+# using  for order
+l.sort()
+
+print(l)
+
+
+
+# tuple
+
+
+
+t=('prasad','hello')
+
+
+print(t.count('prasad'))
+
+print(t.index('hello'))
